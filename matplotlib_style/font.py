@@ -2,12 +2,16 @@ import os
 import matplotlib.font_manager
 import pathlib
 
+
+print('Adding fonts:')
+
 path = pathlib.Path(__file__).parent.resolve()
 path = path / 'TTF'
 
 for fname in os.listdir(path):
   if '.ttf' in fname:
     name = path / fname
+    print(name)
     matplotlib.font_manager.fontManager.addfont(str(name))
     prop = matplotlib.font_manager.FontProperties(fname=name)
     name = prop.get_name()

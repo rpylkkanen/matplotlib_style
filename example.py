@@ -1,6 +1,5 @@
 import matplotlib.pyplot
-from color import colors
-import font
+from matplotlib_style import colors
 import numpy
 
 n = 100
@@ -36,4 +35,4 @@ fig.legend(
 	bbox_to_anchor=bbox_to_anchor,
 )
 
-fig.savefig('example.png', bbox_inches='tight', figsize=(3, 3), dpi=100)
+fig.savefig('example.png', bbox_inches='tight', dpi=100)
