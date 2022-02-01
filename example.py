@@ -1,9 +1,7 @@
 import matplotlib.pyplot
 from color import colors
-from font import setup_font
+import font
 import numpy
-
-setup_font()
 
 n = 100
 x = numpy.linspace(-50, 50, num=n)
