@@ -19,5 +19,9 @@ for fname in os.listdir(path):
       matplotlib.rcParams['font.sans-serif'].insert(0, name)
 
 matplotlib.rcParams['mathtext.fontset'] = 'custom'
-for font in ['rm', 'bf', 'it', 'cal', 'sf', 'tt']:
-  matplotlib.rcParams[f'mathtext.{font}'] = name
+matplotlib.rcParams[f'mathtext.rm'] = name
+matplotlib.rcParams[f'mathtext.bf'] = name + ':bold'
+matplotlib.rcParams[f'mathtext.it'] = name + ':italic'
+matplotlib.rcParams[f'mathtext.cal'] = name
+matplotlib.rcParams[f'mathtext.sf'] = name
+matplotlib.rcParams[f'mathtext.tt'] = name
