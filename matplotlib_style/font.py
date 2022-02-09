@@ -21,7 +21,7 @@ for fname in os.listdir(path):
 matplotlib.rcParams['mathtext.fontset'] = 'custom'
 matplotlib.rcParams[f'mathtext.rm'] = name
 matplotlib.rcParams[f'mathtext.bf'] = name + ':bold'
-matplotlib.rcParams[f'mathtext.it'] = name + ':italic'
+matplotlib.rcParams[f'mathtext.it'] = name
 matplotlib.rcParams[f'mathtext.cal'] = name
 matplotlib.rcParams[f'mathtext.sf'] = name
 matplotlib.rcParams[f'mathtext.tt'] = name
