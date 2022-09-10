@@ -1,11 +1,12 @@
 import matplotlib
 from cycler import cycler
 
+matplotlib.rcParams['font.size'] = 7
 matplotlib.rcParams['axes.labelsize'] = 7
 matplotlib.rcParams['xtick.labelsize'] = 7
 matplotlib.rcParams['ytick.labelsize'] = 7
 matplotlib.rcParams['legend.fontsize'] = 7
-matplotlib.rcParams['font.size'] = 7
+matplotlib.rcParams['legend.frameon'] = False
 
 matplotlib.rcParams['xtick.direction']      = 'out'
 matplotlib.rcParams['ytick.direction']      = 'out'
