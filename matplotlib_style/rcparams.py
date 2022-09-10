@@ -2,7 +2,6 @@ import matplotlib
 from cycler import cycler
 
 matplotlib.rcParams['axes.labelsize'] = 7
-matplotlib.rcParams['axes.panelsize'] = 8
 matplotlib.rcParams['xtick.labelsize'] = 7
 matplotlib.rcParams['ytick.labelsize'] = 7
 matplotlib.rcParams['legend.fontsize'] = 7
