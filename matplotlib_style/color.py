@@ -232,3 +232,25 @@ colors = {
         9: "#263238",
     },
 }
+
+color_abbreviations = {
+    "rd": "red",
+    "pk": "pink",
+    "pl": "purple",
+    "dp": "deep purple",
+    "in": "indigo",
+    "bl": "blue",
+    "lb": "light blue",
+    "cy": "cyan",
+    "tl": "teal",
+    "gr": "green",
+    "lg": "light green",
+    "lm": "lime",
+    "yl": "yellow",
+    "am": "amber",
+    "or": "orange",
+    "do": "deep orange",
+    "br": "brown",
+    "gy": "grey",
+    "bg": "blue grey"
+}
