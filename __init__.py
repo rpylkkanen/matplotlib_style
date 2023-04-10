@@ -1,1 +1,1 @@
-from .matplotlib_style import colors
+from .matplotlib_style import *
