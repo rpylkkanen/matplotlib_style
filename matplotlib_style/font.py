@@ -15,8 +15,14 @@ for fname in os.listdir(path):
     matplotlib.font_manager.fontManager.addfont(str(name))
     prop = matplotlib.font_manager.FontProperties(fname=name)
     name = prop.get_name()
-    if name != matplotlib.rcParams['font.sans-serif'][0]:
-      matplotlib.rcParams['font.sans-serif'].insert(0, name)
+    if name in matplotlib.rcParams['font.sans-serif']:
+      matplotlib.pyplot.rcParams["font.sans-serif"].remove(name)
+    matplotlib.pyplot.rcParams["font.sans-serif"].insert(0, name)
+
+name = 'Source Sans 3'
+if name in matplotlib.rcParams['font.sans-serif']:
+  matplotlib.pyplot.rcParams["font.sans-serif"].remove(name)
+matplotlib.pyplot.rcParams["font.sans-serif"].insert(0, name)
 
 matplotlib.rcParams['mathtext.fontset'] = 'custom'
 matplotlib.rcParams[f'mathtext.rm'] = name
