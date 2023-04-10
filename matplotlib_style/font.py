@@ -19,7 +19,7 @@ for fname in os.listdir(path):
       matplotlib.pyplot.rcParams["font.sans-serif"].remove(name)
     matplotlib.pyplot.rcParams["font.sans-serif"].insert(0, name)
 
-name = 'Source Sans 3'
+name = 'Arial'
 if name in matplotlib.rcParams['font.sans-serif']:
   matplotlib.pyplot.rcParams["font.sans-serif"].remove(name)
 matplotlib.pyplot.rcParams["font.sans-serif"].insert(0, name)
