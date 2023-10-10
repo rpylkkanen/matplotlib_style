@@ -233,6 +233,237 @@ colors = {
     },
 }
 
+red0 = colors["red"][0]
+red1 = colors["red"][1]
+red2 = colors["red"][2]
+red3 = colors["red"][3]
+red4 = colors["red"][4]
+red5 = colors["red"][5]
+red6 = colors["red"][6]
+red7 = colors["red"][7]
+red8 = colors["red"][8]
+red9 = colors["red"][9]
+
+pink0 = colors["pink"][0]
+pink1 = colors["pink"][1]
+pink2 = colors["pink"][2]
+pink3 = colors["pink"][3]
+pink4 = colors["pink"][4]
+pink5 = colors["pink"][5]
+pink6 = colors["pink"][6]
+pink7 = colors["pink"][7]
+pink8 = colors["pink"][8]
+pink9 = colors["pink"][9]
+
+purple0 = colors["purple"][0]
+purple1 = colors["purple"][1]
+purple2 = colors["purple"][2]
+purple3 = colors["purple"][3]
+purple4 = colors["purple"][4]
+purple5 = colors["purple"][5]
+purple6 = colors["purple"][6]
+purple7 = colors["purple"][7]
+purple8 = colors["purple"][8]
+purple9 = colors["purple"][9]
+
+deeppurple0 = colors["deep purple"][0]
+deeppurple1 = colors["deep purple"][1]
+deeppurple2 = colors["deep purple"][2]
+deeppurple3 = colors["deep purple"][3]
+deeppurple4 = colors["deep purple"][4]
+deeppurple5 = colors["deep purple"][5]
+deeppurple6 = colors["deep purple"][6]
+deeppurple7 = colors["deep purple"][7]
+deeppurple8 = colors["deep purple"][8]
+deeppurple9 = colors["deep purple"][9]
+
+indigo0 = colors["indigo"][0]
+indigo1 = colors["indigo"][1]
+indigo2 = colors["indigo"][2]
+indigo3 = colors["indigo"][3]
+indigo4 = colors["indigo"][4]
+indigo5 = colors["indigo"][5]
+indigo6 = colors["indigo"][6]
+indigo7 = colors["indigo"][7]
+indigo8 = colors["indigo"][8]
+indigo9 = colors["indigo"][9]
+
+blue0 = colors["blue"][0]
+blue1 = colors["blue"][1]
+blue2 = colors["blue"][2]
+blue3 = colors["blue"][3]
+blue4 = colors["blue"][4]
+blue5 = colors["blue"][5]
+blue6 = colors["blue"][6]
+blue7 = colors["blue"][7]
+blue8 = colors["blue"][8]
+blue9 = colors["blue"][9]
+
+lightblue0 = colors["light blue"][0]
+lightblue1 = colors["light blue"][1]
+lightblue2 = colors["light blue"][2]
+lightblue3 = colors["light blue"][3]
+lightblue4 = colors["light blue"][4]
+lightblue5 = colors["light blue"][5]
+lightblue6 = colors["light blue"][6]
+lightblue7 = colors["light blue"][7]
+lightblue8 = colors["light blue"][8]
+lightblue9 = colors["light blue"][9]
+
+cyan0 = colors["cyan"][0]
+cyan1 = colors["cyan"][1]
+cyan2 = colors["cyan"][2]
+cyan3 = colors["cyan"][3]
+cyan4 = colors["cyan"][4]
+cyan5 = colors["cyan"][5]
+cyan6 = colors["cyan"][6]
+cyan7 = colors["cyan"][7]
+cyan8 = colors["cyan"][8]
+cyan9 = colors["cyan"][9]
+
+teal0 = colors["teal"][0]
+teal1 = colors["teal"][1]
+teal2 = colors["teal"][2]
+teal3 = colors["teal"][3]
+teal4 = colors["teal"][4]
+teal5 = colors["teal"][5]
+teal6 = colors["teal"][6]
+teal7 = colors["teal"][7]
+teal8 = colors["teal"][8]
+teal9 = colors["teal"][9]
+
+green0 = colors["green"][0]
+green1 = colors["green"][1]
+green2 = colors["green"][2]
+green3 = colors["green"][3]
+green4 = colors["green"][4]
+green5 = colors["green"][5]
+green6 = colors["green"][6]
+green7 = colors["green"][7]
+green8 = colors["green"][8]
+green9 = colors["green"][9]
+
+lightgreen0 = colors["light green"][0]
+lightgreen1 = colors["light green"][1]
+lightgreen2 = colors["light green"][2]
+lightgreen3 = colors["light green"][3]
+lightgreen4 = colors["light green"][4]
+lightgreen5 = colors["light green"][5]
+lightgreen6 = colors["light green"][6]
+lightgreen7 = colors["light green"][7]
+lightgreen8 = colors["light green"][8]
+lightgreen9 = colors["light green"][9]
+
+lime0 = colors["lime"][0]
+lime1 = colors["lime"][1]
+lime2 = colors["lime"][2]
+lime3 = colors["lime"][3]
+lime4 = colors["lime"][4]
+lime5 = colors["lime"][5]
+lime6 = colors["lime"][6]
+lime7 = colors["lime"][7]
+lime8 = colors["lime"][8]
+lime9 = colors["lime"][9]
+
+yellow0 = colors["yellow"][0]
+yellow1 = colors["yellow"][1]
+yellow2 = colors["yellow"][2]
+yellow3 = colors["yellow"][3]
+yellow4 = colors["yellow"][4]
+yellow5 = colors["yellow"][5]
+yellow6 = colors["yellow"][6]
+yellow7 = colors["yellow"][7]
+yellow8 = colors["yellow"][8]
+yellow9 = colors["yellow"][9]
+
+amber0 = colors["amber"][0]
+amber1 = colors["amber"][1]
+amber2 = colors["amber"][2]
+amber3 = colors["amber"][3]
+amber4 = colors["amber"][4]
+amber5 = colors["amber"][5]
+amber6 = colors["amber"][6]
+amber7 = colors["amber"][7]
+amber8 = colors["amber"][8]
+amber9 = colors["amber"][9]
+
+orange0 = colors["orange"][0]
+orange1 = colors["orange"][1]
+orange2 = colors["orange"][2]
+orange3 = colors["orange"][3]
+orange4 = colors["orange"][4]
+orange5 = colors["orange"][5]
+orange6 = colors["orange"][6]
+orange7 = colors["orange"][7]
+orange8 = colors["orange"][8]
+orange9 = colors["orange"][9]
+
+deeporange0 = colors["deep orange"][0]
+deeporange1 = colors["deep orange"][1]
+deeporange2 = colors["deep orange"][2]
+deeporange3 = colors["deep orange"][3]
+deeporange4 = colors["deep orange"][4]
+deeporange5 = colors["deep orange"][5]
+deeporange6 = colors["deep orange"][6]
+deeporange7 = colors["deep orange"][7]
+deeporange8 = colors["deep orange"][8]
+deeporange9 = colors["deep orange"][9]
+
+brown0 = colors["brown"][0]
+brown1 = colors["brown"][1]
+brown2 = colors["brown"][2]
+brown3 = colors["brown"][3]
+brown4 = colors["brown"][4]
+brown5 = colors["brown"][5]
+brown6 = colors["brown"][6]
+brown7 = colors["brown"][7]
+brown8 = colors["brown"][8]
+brown9 = colors["brown"][9]
+
+grey0 = colors["grey"][0]
+grey1 = colors["grey"][1]
+grey2 = colors["grey"][2]
+grey3 = colors["grey"][3]
+grey4 = colors["grey"][4]
+grey5 = colors["grey"][5]
+grey6 = colors["grey"][6]
+grey7 = colors["grey"][7]
+grey8 = colors["grey"][8]
+grey9 = colors["grey"][9]
+
+bluegrey0 = colors["grey"][0]
+bluegrey1 = colors["grey"][1]
+bluegrey2 = colors["grey"][2]
+bluegrey3 = colors["grey"][3]
+bluegrey4 = colors["grey"][4]
+bluegrey5 = colors["grey"][5]
+bluegrey6 = colors["grey"][6]
+bluegrey7 = colors["grey"][7]
+bluegrey8 = colors["grey"][8]
+bluegrey9 = colors["grey"][9]
+
+def hex2rgb(hex_color):
+    # Ensure the hex color string starts with '#'
+    if hex_color[0] == '#':
+        hex_color = hex_color[1:]
+    # Extract RGB values
+    r = int(hex_color[0:2], 16)
+    g = int(hex_color[2:4], 16)
+    b = int(hex_color[4:6], 16)
+    return r, g, b
+
+def blend(color, background=grey2, alpha=1/2):
+
+    r, g, b = hex2rgb(color)
+    r_bg, g_bg, b_bg = hex2rgb(background)
+
+    # Blend with white
+    r_result = int(r * alpha + r_bg * (1 - alpha))
+    g_result = int(g * alpha + g_bg * (1 - alpha))
+    b_result = int(b * alpha + b_bg * (1 - alpha))
+
+    return "#{:02X}{:02X}{:02X}".format(r_result, g_result, b_result)
+
 color_abbreviations = {
     "rd": "red",
     "pk": "pink",
