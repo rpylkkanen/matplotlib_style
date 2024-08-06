@@ -43,3 +43,5 @@ matplotlib.rcParams['boxplot.capprops.linewidth'] = matplotlib.rcParams['axes.li
 matplotlib.rcParams['boxplot.medianprops.linewidth'] = matplotlib.rcParams['axes.linewidth']
 matplotlib.rcParams['boxplot.meanprops.linewidth'] = matplotlib.rcParams['axes.linewidth']
 matplotlib.rcParams['grid.linewidth'] = matplotlib.rcParams['axes.linewidth']
+
+matplotlib.rcParams['path.snap'] = False
