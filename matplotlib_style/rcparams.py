@@ -4,10 +4,16 @@ from cycler import cycler
 fontsize = 9
 matplotlib.rcParams['font.size'] = fontsize
 matplotlib.rcParams['axes.labelsize'] = fontsize
-matplotlib.rcParams['xtick.labelsize'] = fontsize
-matplotlib.rcParams['ytick.labelsize'] = fontsize
-matplotlib.rcParams['legend.fontsize'] = fontsize
+matplotlib.rcParams['xtick.labelsize'] = fontsize - 1
+matplotlib.rcParams['ytick.labelsize'] = fontsize - 1
+matplotlib.rcParams['legend.fontsize'] = fontsize - 2
 matplotlib.rcParams['legend.frameon'] = False
+matplotlib.rcParams['legend.borderpad'] = 0
+matplotlib.rcParams['legend.labelspacing'] = 0.25
+matplotlib.rcParams['legend.handlelength'] = 0.8
+matplotlib.rcParams['legend.handleheight'] = 0.25
+matplotlib.rcParams['legend.handletextpad'] = 0.5
+matplotlib.rcParams['legend.borderaxespad'] = 0.5
 
 matplotlib.rcParams['xtick.direction']      = 'out'
 matplotlib.rcParams['ytick.direction']      = 'out'
@@ -17,7 +23,7 @@ matplotlib.rcParams['xtick.top']            = False
 matplotlib.rcParams['ytick.right']          = False
 
 # blue, orange, green, red, purple, brown, pink, grey, yellow, teal
-matplotlib.rcParams['axes.prop_cycle'] = cycler('color', ['#d32f2f', '#1976d2', '#388e3c', '#f57c00', '#7b1fa2', '#fbc02d'])
+matplotlib.rcParams['axes.prop_cycle'] = cycler('color', ['#00897b'])
 
 matplotlib.rcParams['axes.linewidth'] = 0.5
 matplotlib.rcParams['xtick.major.width'] = matplotlib.rcParams['axes.linewidth']
@@ -44,7 +50,7 @@ matplotlib.rcParams['xtick.minor.size'] = matplotlib.rcParams['lines.markersize'
 matplotlib.rcParams['ytick.major.size'] = matplotlib.rcParams['lines.markersize']
 matplotlib.rcParams['ytick.minor.size'] = matplotlib.rcParams['lines.markersize'] / 2
 matplotlib.rcParams['axes.titlesize'] = 'medium'
-matplotlib.rcParams['axes.labelpad'] = 0
+matplotlib.rcParams['axes.labelpad'] = 3
 matplotlib.rcParams['axes.titlepad'] = 4
 matplotlib.rcParams['xtick.major.pad'] = 2
 matplotlib.rcParams['xtick.minor.pad'] = 2
