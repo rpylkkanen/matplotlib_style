@@ -2,7 +2,7 @@ import matplotlib
 from cycler import cycler
 
 # Misc
-matplotlib.rcParams['axes.prop_cycle'] = cycler('color', ['#00897b' '#fb8c00' '#8e24aa'])
+matplotlib.rcParams['axes.prop_cycle'] = cycler('color', ['#00897b', '#fb8c00', '#8e24aa'])
 matplotlib.rcParams['legend.frameon'] = False
 matplotlib.rcParams['path.snap'] = False
 
